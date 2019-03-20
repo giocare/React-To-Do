@@ -13,6 +13,6 @@ The objective of this project to learn React
 
 
 ### Live Demo
-http://jessicatodoapp.herokuapp.com/
+https://jessicareact-todo.herokuapp.com/
 
 ![My image](https://github.com/giocare/React-To-Do/blob/master/src/demo.gif)
