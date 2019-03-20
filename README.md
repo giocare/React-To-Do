@@ -1,7 +1,5 @@
 # React To-Do-App
-The objective of this project to learn MVC, HTML, HTTP, REST API, JSON, Sessions and Cookies
-
-Languages: React
+The objective of this project to learn React
 
 ## Requirements
 1. Create a new user
