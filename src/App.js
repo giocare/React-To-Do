@@ -165,17 +165,20 @@ logOut = (e) => {
   })
 }
     render() {
+
     if(this.state.token === undefined)
       return (
+         <div className="wrapper">
         <Login getUsername={this.getUsername} createUsername={this.createUsername}/>
+        </div>
         );
     else
       return (
-        <div className="wrapper">
+    <div>
         <Logout logOut={this.logOut}/>
           <Todos id={this.state.id} username={this.state.name} token={this.state.token} todos={this.returnTodos()} addTask={this.addTask}  />
           <List contacts={this.state.fetchData} removeTodo={this.removeTodo} updateTodo={this.updateTodo} />
-        </div>
+      </div>
       );
   }
 }

@@ -1,17 +1,25 @@
 .wrapper {
-/*  background: linear-gradient(to right, #E3761B, #FFAF1C);
-*/  background: #FFAF1C;
+  /*background: linear-gradient(to right, #E3761B, #FFAF1C);*/
+
 
   height: 100vh;
   display: inline;
   justify-content: center;
   align-items: center;
-
+  background-color:  black;
 }
+
 
 .gr__localhost{
-  background: linear-gradient(to right, #E3761B, #FFAF1C);
+  /*background: linear-gradient(to right, #E3761B, #FFAF1C);*/
+  /*background: black;*/
 }
+
+body {
+  background: linear-gradient(to right, #E3761B, #FFAF1C);
+  /*background: #E3761B;*/
+}
+
 
 input[type="text"] {
   background-color: transparent;
