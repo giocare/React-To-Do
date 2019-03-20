@@ -1,5 +1,6 @@
 .wrapper {
-  background: linear-gradient(to right, #E3761B, #FFAF1C);
+/*  background: linear-gradient(to right, #E3761B, #FFAF1C);
+*/  background: #FFAF1C;
 
   height: 100vh;
   display: inline;
